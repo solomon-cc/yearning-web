@@ -1,0 +1,8 @@
+include:
+  - project: 'devops/devops_templates'
+    ref: master
+    file:
+      - /corecloud/before-test.yml
+
+stages:
+  - code-quality-checker 
